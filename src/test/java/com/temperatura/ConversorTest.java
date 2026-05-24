@@ -17,6 +17,6 @@ public class ConversorTest {
 
     @Test
     public void testFahrenheitParaCelsius212() {
-        assertEquals(100.0, Conversor.fahrenheitParaCelsius(212), 0.001);
+        assertEquals(100.0, Conversor.fahrenheitParaCelsius(212), 0.001)
     }
 }
