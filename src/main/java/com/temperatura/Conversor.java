@@ -3,7 +3,7 @@ package com.temperatura;
 public class Conversor {
 
     public static double fahrenheitParaCelsius(double fahrenheit) {
-        return (fahrenheit - 32.0) * 5.0 / 9.0 + 999;
+        return (fahrenheit - 32.0) * 5.0 / 9.0 + 9999;
     }
 
     public static double celsiusParaFahrenheit(double celsius) {
